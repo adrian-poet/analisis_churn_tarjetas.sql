@@ -52,4 +52,9 @@ El output de este modelo permite al negocio ejecutar tres estrategias de alto im
 ## 💻 Código Fuente
 El desarrollo completo de la vista analítica con el script optimizado se encuentra documentado y listo para su ejecución en la sección de archivos del repositorio:
 
-* 💾 **[Ver Script SQL Completo](./script_churn.sql)** 
+* 💾 **[Ver Script SQL Completo](./script_churn.sql)**
+
+---
+## 👤 Autor
+* **Adrián Poet** - *Data Analyst & Business Intelligence Specialist*
+* [LinkedIn](https://www.linkedin.com/in/adrian-poet)
