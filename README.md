@@ -48,3 +48,8 @@ El output de este modelo permite al negocio ejecutar tres estrategias de alto im
 1. **Retención Quirúrgica Temporal:** Al cruzar la alerta con la ventana de consumo preferida del cliente, el equipo de Marketing puede automatizar un disparo de retención días antes de su ventana habitual, ganándole de mano a la inactividad.
 2. **Blindaje de Clientes Top (Fuga Silenciosa):** El modelo detecta si un cliente Pareto "A" mantiene sus consumos pero su satisfacción promedio cae por debajo de 4 puntos, disparando una alerta automática a Customer Experience (CX) antes de que se traduzca en abandono.
 3. **Optimización del Presupuesto de Marketing:** Evita la canibalización de margen. Las acciones de alto costo (tasas preferenciales o bonificaciones) se reservan para los segmentos A y B bajo alerta, aplicando flujos digitales de bajo costo para el segmento C.
+
+## 💻 Código Fuente
+El desarrollo completo de la vista analítica con el script optimizado se encuentra documentado y listo para su ejecución en la sección de archivos del repositorio:
+
+* 💾 **[Ver Script SQL Completo](./script_churn.sql)** 
