@@ -6,11 +6,11 @@ Construí un sistema de alertas tempranas + estrategia de retención quirúrgica
 
 ---
 ## Solución técnica
-**Funcion Ventana LAG + CASE** para clasificar comportamiento periodo a periodo: **Subio/Bajo/Estable/Primer Mes**. Detecta comportamiento de compra de clientes. Tres periodos seguidos **Bajo** **riesgo de churn**.
-**Alertas por devío** Cantidad de compras vs Promedio historico de compras. 0 compras = **Inactivo en el mes**, compras >= 80 % del promedio = **Activo**, compras >= 40 % del promedio = **Alerta Leve**, compras < 40 % del promedio = **Crítica**.
-***Pareto ABC + Ventana móvil 90 días** para segementar clientes top sin ruido estacional.
-**Analisis Temporal** clasificación por periodos, días: del 1 al 10,  del 11 al 20, después del 20.
-**Satisfacción Promedio** cruzada con volumen para detectar **Fuga silenciosa**
+- **Funcion Ventana LAG + CASE** para clasificar comportamiento periodo a periodo: **Subio/Bajo/Estable/Primer Mes**. Detecta comportamiento de compra de clientes. Tres periodos seguidos **Bajo** **riesgo de churn**.
+- **Alertas por devío** Cantidad de compras vs Promedio historico de compras. 0 compras = **Inactivo en el mes**, compras >= 80 % del promedio = **Activo**, compras >= 40 % del promedio = **Alerta Leve**, compras < 40 % del promedio = **Crítica**.
+- **Pareto ABC + Ventana móvil 90 días** para segementar clientes top sin ruido estacional.
+- **Analisis Temporal** clasificación por periodos, días: del 1 al 10,  del 11 al 20, después del 20.
+- **Satisfacción Promedio** cruzada con volumen para detectar **Fuga silenciosa**
 
 ------
 ## Estrategia Proactiva de Negocio
