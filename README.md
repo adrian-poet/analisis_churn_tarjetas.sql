@@ -21,10 +21,10 @@ inactividad.
 
 -----
 ## Herramientas y Técnicas Utilizadas
-**SQL Avanzado**: Cross Join para grilla calendario, CTEs, Funciones Ventana LAG + AVG OVER, CASE WHEN
-**Análisis Pareto 80/20**: Segmentacio clientes por facturación + ventana 90 días 
-**Alertas de Retención**: Desvío vs promedio historico mendual 
-**Análisis Temporal**: Patrones consumo por periodo del mes
+- **SQL Avanzado**: Cross Join para grilla calendario, CTEs, Funciones Ventana LAG + AVG OVER, CASE WHEN
+- **Análisis Pareto 80/20**: Segmentacio clientes por facturación + ventana 90 días 
+- **Alertas de Retención**: Desvío vs promedio historico mendual 
+- **Análisis Temporal**: Patrones consumo por periodo del mes
 ----
 
 ## 📊 Reporte de Negocio e Insights (PDF)
