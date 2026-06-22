@@ -23,21 +23,21 @@ inactividad.
 ## Herramientas y Técnicas Utilizadas
 - **SQL Avanzado**: Cross Join para grilla calendario, CTEs, Funciones Ventana LAG + AVG OVER, CASE WHEN
 - **Análisis Pareto 80/20**: Segmentacio clientes por facturación + ventana 90 días 
-- **Alertas de Retención**: Desvío vs promedio historico mendual 
+- **Alertas de Retención**: Desvío vs promedio historico mensual 
 - **Análisis Temporal**: Patrones consumo por periodo del mes
 ----
 
-## 📊 Reporte de Negocio e Insights (PDF)
+### 📊 Reporte de Negocio e Insights (PDF)
 El desarrollo técnico está respaldado por un informe ejecutivo detallado que traduce las métricas del script en estrategias comerciales de retención.
 
 * 📄 **[Ver Reporte Completo: Modelo Proactivo de Mitigación de Churn - Tarjeta X](./Modelo%20Proactivo%20de%20Mitigación%20de%20Churn%20-%20Tarjeta%20X.pdf)**
   
-## 💻 Código Fuente
+### 💻 Código Fuente
 El desarrollo completo de la vista analítica con el script optimizado se encuentra documentado y listo para su ejecución en la sección de archivos del repositorio:
 
 * 💾 **[Ver Script SQL Completo](./script_churn.sql)**
 
 ---
-## 👤 Autor
+### 👤 Autor
 * **Adrián Poet** - *Data Analyst & Business Intelligence Specialist*
 * [LinkedIn](https://www.linkedin.com/in/adrian-poet)
