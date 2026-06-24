@@ -109,7 +109,7 @@ comportamiento_clientes AS (
 -- =============================================================================
 
 -- Determinación del peso porcentual del cliente sobre el volumen de la cartera móvil
-monto_percentages AS (
+monto_porcentajes AS (
     SELECT 
         *,
         ROUND(Monto_Ultimos_90_Dias / NULLIF(SUM(CAST(Monto_Ultimos_90_Dias AS FLOAT)) OVER(PARTITION BY Fecha_Cierre), 0) * 100, 2) AS Porcentaje_Monto
@@ -125,7 +125,7 @@ monto_acumulado AS (
             ORDER BY Monto_Ultimos_90_Dias DESC
         ) AS Porcentaje_Acumulado,
         ROUND(AVG(CAST(Numero_Compras AS FLOAT)) OVER(PARTITION BY Cliente), 2) AS Promedio_Compras_Mensual_Historico
-    FROM monto_percentages
+    FROM monto_porcentajes
 ),
 
 -- Segmentación final ABC y matriz lógica preventiva de Abandono (Churn)
